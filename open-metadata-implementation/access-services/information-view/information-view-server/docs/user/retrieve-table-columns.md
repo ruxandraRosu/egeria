@@ -21,7 +21,7 @@ VoidResponse with error message in case of error
             "qualifiedName": "(host_(engine))={{host}}::(database)=EMPLSANL::(database_schema)=DB2INST1::(database_table)=EMPSALARYANALYSIS::(database_column)=STATE",
             "name": "STATE",
             "position": 20,
-            "businessTerm": {
+            "businessTerms": [{
                 "guid": "6662c0f2.e1b1ec6c.00263phfe.hdcsrms.095jod.69a74ckl4hrfodcsgeu2d",
                 "name": "State",
                 "description": "",
@@ -30,7 +30,7 @@ VoidResponse with error message in case of error
                 "summary": "",
                 "examples": "",
                 "qualifiedName": "(category)=Coco Pharmaceuticals::(category)=Terms::(term)=State"
-            },
+            }],
             "isNullable": false,
             "isUnique": false,
             "isPrimaryKey": false
@@ -40,7 +40,7 @@ VoidResponse with error message in case of error
             "qualifiedName": "(host_(engine))={{host}}::(database)=EMPLSANL::(database_schema)=DB2INST1::(database_table)=EMPSALARYANALYSIS::(database_column)=EMPSTATUS",
             "name": "EMPSTATUS",
             "position": 4,
-            "businessTerm": {
+            "businessTerms": [{
                 "guid": "6662c0f2.e1b1ec6c.00263pfrb.66t5p8c.jk5353.69k7s3u2do49odaavci58",
                 "name": "Employee Status",
                 "description": "",
@@ -49,7 +49,7 @@ VoidResponse with error message in case of error
                 "summary": "Employee Status represents current various status that an employee could have. Possible values: 1=Student; 2=Temporary-Assignment; 3=Board-Advisor; 4=Sabbatical; 5=Executive; 6=Part-Time-Perm; 7=Full-Time-Perm; 8=Left; 9=Retired; 10=DIS",
                 "examples": "",
                 "qualifiedName": "(category)=Coco Pharmaceuticals::(category)=Terms::(term)=Employee Status"
-            },
+            }],
             "isNullable": false,
             "isUnique": false,
             "isPrimaryKey": false
@@ -59,7 +59,7 @@ VoidResponse with error message in case of error
             "qualifiedName": "(host_(engine))={{host}}::(database)=EMPLSANL::(database_schema)=DB2INST1::(database_table)=EMPSALARYANALYSIS::(database_column)=TAXP",
             "name": "TAXP",
             "position": 22,
-            "businessTerm": {
+            "businessTerms": [{
                 "guid": "6662c0f2.e1b1ec6c.00263phg8.gdtncls.audklp.e6or1vj80e3j7mgaqignr",
                 "name": "Tax State",
                 "description": "",
@@ -68,7 +68,7 @@ VoidResponse with error message in case of error
                 "summary": "",
                 "examples": "",
                 "qualifiedName": "(category)=Coco Pharmaceuticals::(category)=Terms::(term)=Tax State"
-            },
+            }],
             "isNullable": false,
             "isUnique": false,
             "isPrimaryKey": false

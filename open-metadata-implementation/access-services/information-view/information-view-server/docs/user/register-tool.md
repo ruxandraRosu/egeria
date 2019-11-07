@@ -13,6 +13,7 @@ POST {{url-omas}}/servers/{{server-id-omas}}/open-metadata/access-services/infor
   "class": "RegistrationRequestBody",
   "softwareServerCapability": {
     "class": "SoftwareServerCapabilitySource",
+    "qualifiedName":"internal id",
     "author": "owner-test",
     "userId": "cognosToolId",
     "lastModifiedTime": 1547838663347,
@@ -23,7 +24,7 @@ POST {{url-omas}}/servers/{{server-id-omas}}/open-metadata/access-services/infor
   }
 }
 
-VoidResponse response with success or error status
+RegistrationResponse for success containing details of the software server capability entity create or error response otherwise
 
 ```
 ----
